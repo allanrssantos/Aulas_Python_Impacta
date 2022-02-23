@@ -69,8 +69,16 @@ Como resultado, o programa deve gerar a tupla:
 _________________________________________________________________________
 '''
 
-# lista_1 = [1, 2, 3, 4, 5]
-# lista_2 = [6, 7, 8, 9, 10]
+# lista_1 = []
+# for i in range(5):
+#       numero = int(input("Número: "))
+#       lista_1.append(numero)
+
+# lista_2 = []
+# for i in range(5):
+#       numero = int(input("Número: "))
+#       lista_2.append(numero)
+
 # tupla = tuple(lista_1) + tuple(lista_2)
 
 # print(tupla)
@@ -89,12 +97,18 @@ _________________________________________________________________________
 '''
 
 # def intercala_numeros():
-#     lista_1 = [1, 2, 3]
-#     lista_2 = [4, 5, 6]
-#     lista = []
-#     for i in range(0 ,3):
-#         lista.append(lista_1[i])
-#         lista.append(lista_2[i])
-#     return lista
+#      lista_1 = []
+#      for i in range(3):
+#         numero = int(input("Número: "))
+#         lista_1.append(numero)  
+#      lista_2 = []
+#      for i in range(3):
+#         numero = int(input("Número: "))
+#         lista_2.append(numero)
+#      lista = []
+#      for i in range(0 ,3):
+#          lista.append(lista_1[i])
+#          lista.append(lista_2[i])
+#      return lista
 
 # print(intercala_numeros())
